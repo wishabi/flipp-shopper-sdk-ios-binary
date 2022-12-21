@@ -1,0 +1,57 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FlippShopperSDK
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import os
+public enum Features : Swift.String, Swift.Hashable {
+  case goToURL
+  case addToList
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol NativeXDelegate : AnyObject {
+  func didResize(to height: Swift.Double)
+  func didTap(item: Swift.String)
+  func didFinishLoad(contentHeight: Swift.Double)
+  func didFailToLoad(error: Swift.Error)
+}
+extension FlippShopperSDK.NativeXDelegate {
+  public func didResize(to height: Swift.Double)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class FPWebView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var nativeXdelegate: FlippShopperSDK.NativeXDelegate?
+  @_Concurrency.MainActor(unsafe) required public init(viewController: UIKit.UIViewController, features: [FlippShopperSDK.Features] = [], shouldAutosize: Swift.Bool = true)
+  @objc deinit
+}
+extension FlippShopperSDK.FPWebView : WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+extension FlippShopperSDK.FPWebView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+}
+public enum Environment {
+  case dev, production
+  public static func == (a: FlippShopperSDK.Environment, b: FlippShopperSDK.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class FPShopperSDK : ObjectiveC.NSObject {
+  public static let version: Swift.String
+  public static var shared: FlippShopperSDK.FPShopperSDK
+  final public func configure(_ environment: FlippShopperSDK.Environment, siteId: Swift.String, zoneIds: [Swift.String], userId: Swift.String? = nil)
+  @objc deinit
+}
+extension FlippShopperSDK.Features : Swift.RawRepresentable {}
+extension FlippShopperSDK.Environment : Swift.Equatable {}
+extension FlippShopperSDK.Environment : Swift.Hashable {}
