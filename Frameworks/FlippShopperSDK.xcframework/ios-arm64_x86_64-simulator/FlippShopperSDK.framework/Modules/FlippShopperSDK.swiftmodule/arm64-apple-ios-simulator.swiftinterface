@@ -49,7 +49,7 @@ public enum Environment {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class FPShopperSDK : ObjectiveC.NSObject {
   public static let version: Swift.String
   public static var shared: FlippShopperSDK.FPShopperSDK
-  final public func configure(_ environment: FlippShopperSDK.Environment, siteId: Swift.String, zoneIds: [Swift.String], userId: Swift.String? = nil)
+  final public func configure(_ environment: FlippShopperSDK.Environment, siteId: Swift.String, zoneIds: [Swift.String], publisherName: Swift.String, userId: Swift.String? = nil)
   @objc deinit
 }
 extension FlippShopperSDK.Features : Swift.RawRepresentable {}
