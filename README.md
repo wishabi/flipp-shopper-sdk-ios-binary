@@ -1,72 +1,137 @@
-# FlippShopperSDK
-FlippShopperSDK is a framework, that should provide a native-x experience to the clients.
+# Flipp Shopper SDK Integration Sample
 
-## Getting started
-There are several main features and functionalities that FlippShopperSDK provides. They are as follows:
-- Rendering a native-x experience using `FPWebView`
-- Providing delegate methods to handle `FPWebView` events
+This documentation describes how you can integrate with the FlippShopperSDK. 
 
-## Installation
-### Swift Package Manager
-Use this repo URL as the package URL and select the SFML package when prompted. You may have to add your GitHub credentials to Xcode.
-### Manually
-Link FlippShopperSDK.xcframework to your project by adding it under Linked Frameworks and Libraries. You may also need to add it under Embedded Binaries (if using the standalone binary).
+To try it out, you can download or clone this repo to see it work within a sample app.
 
-## Quick start
-To use the SDK, it's required to call the `FlippShopperSDK` configure method with the environment, siteId, and zoneIds passed as arguments, for example
-`FPShopperSDK.shared.configure(.dev, siteId: "111", zoneIds: ["222"])` where
-- environment - is the environment you'd like the SDK to work against
-- siteId - represents SDK client, Use value provided by Flipp
-- zoneIds - an array of geographical areas that includes or excludes certain flights and creatives. Use values provided by Flipp.
-- userId - an optional property uniquely identifying the current user.
+## Table of Contents
+- [About the SDK](#about-flippshoppersdk)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Features](#features)
+- [Size Modes](#size-modes)
+- [Delegate Methods](#delegate-methods)
 
-#### Creating an instance of `FPWebView`
+___
+
+## About FlippShopperSDK <a name="about-flippshoppersdk"></a>
+The FlippShopperSDK is a framework that provides the ability to embed the Flipp NativeX experience within an iOS app.
+
+The SDK does this by providing a custom view called `FPWebView`, which has 2 main functionalities:
+
+1. Renders the NativeX experience 
+2. Provides delegate methods for your app to handle events from the `FPWebView`
+
+## Installation <a name="installation"></a>
+To start using FlippShopperSDK, you can follow one of the options below:
+### Option #1: Use Swift Package Manager
+
+You can use XCode's Swift Package Manager to add the FlippShopperSDK package.
+
+- Open your project in XCode.
+- Navigate to Package Dependecies > Click '+' to add a package.
+- Enter this [repository's URL](https://github.com/wishabi/flipp-shopper-sdk-ios-binary) as the package URL and select the package when prompted. You may have to add your GitHub credentials to XCode for authentication.
+### Option #2: Download manually
+You can also include the SDK by downloading the `FlippShopperSDK.xcframework` manually from the repo's [framework folder](https://github.com/wishabi/flipp-shopper-sdk-ios-binary/tree/main/Frameworks/) and add it to your project by including it under Linked Frameworks and Libraries.
+
+You may also need to add it under Embedded Binaries (if using the standalone binary).
+
+___
+## Quick start <a name="quick-start"></a>
+### Configure the SDK
+To start using the SDK, you will need to call the `FlippShopperSDK` configure method with the following required arguments. 
+
+It is preferable to call `configure` as soon as possible, preferably near the initialization of your app.
+
+- ``environment`` - The environment you'd like the SDK to work against
+- ``siteId`` - An ID that represents the SDK client. Use values provided by Flipp
+- ``zoneIds`` - (optional) An array of geographical areas that includes or excludes certain flights and creatives. Use values provided by Flipp
+- ``publisherName`` - A string that uniquely identifies the client app. Use values provided by Flipp 
+- ``userId`` - A property uniquely identifying the current user
+
+
+For example:
+```swift
+FPShopperSDK.shared.configure(
+  .dev,
+  siteId: "111",
+  zoneIds: ["222"],
+  publisherName: "publisher-name",
+  userId: "abc",
+)
 ```
+
+
+## Creating an instance of `FPWebView`
+After configuring the SDK, you will need to create an instance of `FPWebView`.
+
+This can be done by setting the following mandatory parameters:
+- `viewController` - Current `UIViewController` that contains the webview
+- `features` - (optional) An array of features you'd like to have. This is empty by default
+- `shouldAutosize` - (optional) A property which allows creating a manual or autosizing webview
+
+Here is a sample snippet of how `FPWebView` can be instantiated:
+
+```swift
 class ViewController: UIViewController, NativeXDelegate {
   private var webView: FPWebView?
   
       override func viewDidLoad() {
         super.viewDidLoad()
         // Create an instance of FPWebView and pass a UIViewController containing it
-        webview = FPWebView(viewController: self, features: [.addToList])
+        webview = FPWebView(
+          viewController: self,
+          features: [.addToList, .goToUrl]
+          shouldAutosize: false
+        )
         // Assign a delegate
         webview.nativeXdelegate = self
       }
 }
 ```
-`FPWebView` requires several parameters:
-- `viewController` - current `UIViewController`, containing the webview
-- `features` - an optional array of features you'd like to have. By default - empty.
-- `shouldAutosize` - optional property, which allows creating a manual or autosizing webview
 
-## Features
-You can pass additional features during FPWebView initialization using the parameter `features`, which expects an array of an enum. Currently, there are two supported features: 
-1. goToURL - Supported by default. Ability to open a native browser from the SDK if, for example, the user clicks the URL.
-2. addToList - Optional. Ability to add items from the FPWebView to your list. Implement func didTap(item: String)  delegate method if you want to handle the user taps.
+## Features <a name="features"></a>
+The FlippShopperSDK provides additional features depending on your app's use case.
 
-## Size modes
+To enable/disable them, you can pass values during the `FPWebView` initialization using the parameter `features`, which expects an array of an enum. Currently, we support the following features:
+
+1. `goToURL` - If a user taps on a link within the `FPWebView`, it is opened in the native browser. This is enabled by default
+2. `addToList` - (optional) If a user taps on an item, this feature will notify your app through a delegate method. An example use case would be if your app has a shopping list functionality - enabling this feature would allow the SDK to send clicked items from the flyers for your app to store in the list. (For more details, see the `func didTap(item: String)` in the Delegate Methods section below)
+
+## Size modes <a name="size-modes"></a>
 The SDK supports automatic and manual sizing modes for `FPWebView`. During initialization, you can select the mode by passing the boolean variable `shouldAutosize`.
 
 ### Automatic
 
-Default mode. Сhanges the webview frame based on the content height. For example, if by clicking a button, the webview expands, then using the automatic sizing, its height will also increase.
+Automatically changes the webview frame based on the content's height. 
+
+For example, if automatic sizing is enabled and a user clicks a button causing the webview to expand, then the webview height will automatically increase.
+
+`shouldAutosize` is set to `true` by default. 
 
 ### Manual
 
-You can enable the manual mode by passing `false` to `shouldAutosize` during the initialization.
+Set `shouldAutosize` to `false` to enable manual mode.
 
-Manual mode is more flexible in comparison to auto mode. The `FPWebView` will behave as a webview without frame change behavior. So in the same example, if by clicking a button, the webview expands, you should change the webview height yourself. You can get the actual content height from the delegate methods:
+Manual mode is more flexible in comparison to auto mode. The `FPWebView` will behave as a webview without frame change behavior. So in the same example, if by clicking a button the webview expands, you will be able to change the webview height yourself. You can get the actual content height from one of the following delegate methods:
 
-`func didResize(to height: Double)  or\and func didFinishLoad(contentHeight: Double)`
+`func didResize(to height: Double)`  
 
-## Delegate methods
-You can handle `FPWebView` events by assigning a delegate to `nativeXdelegate` property. 
+And/or
+
+`func didFinishLoad(contentHeight: Double)`
+
+## Delegate methods <a name="delegate-methods`"></a>
+The `FPWebView` can send events notifying your app about actions that the user has taken. 
+
+To handle the events from `FPWebView`, you can assign a delegate to `nativeXdelegate` property. 
+
 The following events are supported:
 
 `func didFinishLoad(contentHeight: Double)` - Called when the webview finished loading and the content is ready to be displayed.
 
-`func didFailToLoad(error: Error)` - Webview failed to load
+`func didFailToLoad(error: Error)` - Called when the webview failed to load
 
 `func didResize(to height: Double)` - An optional method you can implement if you want to handle the webview size manually.
 
-`func didTap(item: String)` - This method can be called if you declared support for .addToList feature during the webview initialization. Called when the user taps on add to list button in the view.
+`func didTap(item: String)` - This method can be called if you declared support for `.addToList` feature during the webview initialization. Called when the user taps on add to list button in the view.
