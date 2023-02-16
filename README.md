@@ -101,15 +101,13 @@ To enable/disable them, you can pass values during the `FPWebView` initializatio
 ## Size modes <a name="size-modes"></a>
 The SDK supports automatic and manual sizing modes for `FPWebView`. During initialization, you can select the mode by passing the boolean variable `shouldAutosize`.
 
-### Automatic
+### Automatic sizing
 
-Automatically changes the webview frame based on the content's height. 
+Automatic sizing changes the webview frame based on the content's height and is enabled by default. 
 
 For example, if automatic sizing is enabled and a user clicks a button causing the webview to expand, then the webview height will automatically increase.
 
-`shouldAutosize` is set to `true` by default. 
-
-### Manual
+### Manual sizing
 
 Set `shouldAutosize` to `false` to enable manual mode.
 
@@ -121,7 +119,7 @@ And/or
 
 `func didFinishLoad(contentHeight: Double)`
 
-## Delegate methods <a name="delegate-methods`"></a>
+## Delegate methods <a name="delegate-methods"></a>
 The `FPWebView` can send events notifying your app about actions that the user has taken. 
 
 To handle the events from `FPWebView`, you can assign a delegate to `nativeXdelegate` property. 
