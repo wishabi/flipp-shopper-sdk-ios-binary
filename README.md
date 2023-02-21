@@ -45,9 +45,9 @@ It is preferable to call `configure` as soon as possible, preferably near the in
 
 - ``environment`` - The environment you'd like the SDK to work against
 - ``siteId`` - An ID that represents the SDK client. Use values provided by Flipp
-- ``zoneIds`` - (optional) An array of geographical areas that includes or excludes certain flights and creatives. Use values provided by Flipp
+- ``zoneIds`` - (optional) An array of zones used to separate site/properties within a media partner's portfolio to facilitate content targeting. For example, a zone for sports, another for news or food. Use values provided by Flipp if applicable
 - ``publisherName`` - A string that uniquely identifies the client app. Use values provided by Flipp 
-- ``userId`` - A property uniquely identifying the current user
+- ``userId`` - A unique string anonymously identifying the current user that is used for frequency cap and improving content relevancy. For example, the userId can be a hashed ADID/IDFA, hashed email, internal app or account ID. Do not send PII in plain text or hardcode a static userID
 
 
 For example:
@@ -95,7 +95,7 @@ The FlippShopperSDK provides additional features depending on your app's use cas
 
 To enable/disable them, you can pass values during the `FPWebView` initialization using the parameter `features`, which expects an array of an enum. Currently, we support the following features:
 
-1. `goToURL` - If a user taps on a link within the `FPWebView`, it is opened in the native browser. This is enabled by default
+1. `goToURL` - If a user taps on a link within the `FPWebView`, it is opened in the native browser. This feature must be enabled.
 2. `addToList` - (optional) If a user taps on an item, this feature will notify your app through a delegate method. An example use case would be if your app has a shopping list functionality - enabling this feature would allow the SDK to send clicked items from the flyers for your app to store in the list. (For more details, see the `func didTap(item: String)` in the Delegate Methods section below)
 
 ## Size modes <a name="size-modes"></a>
@@ -103,15 +103,15 @@ The SDK supports automatic and manual sizing modes for `FPWebView`. During initi
 
 ### Automatic sizing
 
-Automatic sizing changes the webview frame based on the content's height and is enabled by default. 
+Automatic sizing changes the webview frame based on the content's height and is enabled by default. This is the recommended sizing mode to use. 
 
-For example, if automatic sizing is enabled and a user clicks a button causing the webview to expand, then the webview height will automatically increase.
+For example, if automatic sizing is enabled and a user clicks a button causing the webview to expand, then the webview height will automatically increase to fit the content.
 
 ### Manual sizing
 
 Set `shouldAutosize` to `false` to enable manual mode.
 
-Manual mode is more flexible in comparison to auto mode. The `FPWebView` will behave as a webview without frame change behavior. So in the same example, if by clicking a button the webview expands, you will be able to change the webview height yourself. You can get the actual content height from one of the following delegate methods:
+With manual sizing, the `FPWebView` will behave as a webview without frame change behavior. So in the same example, if by clicking a button the webview expands, you will have to change the webview height yourself by getting the actual content height from one of the following delegate methods:
 
 `func didResize(to height: Double)`  
 
