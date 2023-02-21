@@ -22,6 +22,9 @@ The SDK does this by providing a custom view called `FPWebView`, which has 2 mai
 1. Renders the NativeX experience 
 2. Provides delegate methods for your app to handle events from the `FPWebView`
 
+<img src="./assets/SDKIntegration.png" width="25%">
+
+
 ## Installation <a name="installation"></a>
 To start using FlippShopperSDK, you can follow one of the options below:
 ### Option #1: Use Swift Package Manager
