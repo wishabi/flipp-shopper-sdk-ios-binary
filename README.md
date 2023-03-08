@@ -51,6 +51,7 @@ It is preferable to call `configure` as soon as possible, preferably near the in
 - ``zoneIds`` - (optional) An array of zones used to separate site/properties within a media partner's portfolio to facilitate content targeting. For example, a zone for sports, another for news or food. Use values provided by Flipp if applicable
 - ``publisherName`` - A string that uniquely identifies the client app. Use values provided by Flipp 
 - ``userId`` - A unique string anonymously identifying the current user that is used for frequency cap and improving content relevancy. For example, the userId can be a hashed ADID/IDFA, hashed email, internal app or account ID. Do not send PII in plain text or hardcode a static userID
+- ``contentCode`` - (optional) A string that can be used to invoke different campaign content for testing purposes
 
 
 For example:
@@ -61,6 +62,7 @@ FPShopperSDK.shared.configure(
   zoneIds: ["222"],
   publisherName: "publisher-name",
   userId: "abc",
+  contentCode: "publisher-test"
 )
 ```
 
