@@ -12,7 +12,7 @@ class ArticleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        FPShopperSDK.shared.configure(.dev, siteId: "1192075", zoneIds: ["260678"], publisherName: "wishabi-test-publisher")
+        FPShopperSDK.shared.configure(.dev, siteId: "1192075", zoneIds: ["260678"], publisherName: "wishabi-test-publisher", contentCode: "flipp-sdk")
 
         webview = FPWebView(viewController: self)
         webview.nativeXdelegate = self
