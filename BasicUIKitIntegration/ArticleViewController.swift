@@ -16,6 +16,9 @@ class ArticleViewController: UIViewController {
 
         webview = FPWebView(viewController: self)
         webview.nativeXdelegate = self
+        
+        webview.setContext(contextList: ["Cheese", "Onions", "Turkey"], contextUrl: "https://myrecipesite.com/1111")
+        
         textView.text = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum commodo eros, a congue nunc tempus nec. Nullam scelerisque ante a mi blandit facilisis. Nunc mattis maximus sodales. Nullam sem nisi, pellentesque quis lacus in, volutpat gravida arcu. Maecenas scelerisque, enim id pretium cursus, leo leo pharetra leo, ut mattis elit massa sit amet nibh. Aliquam vel lobortis mauris, sed tempor odio. Nullam tristique dolor nec vulputate tristique. Nam vestibulum velit orci, id egestas sem lobortis eget. Nam hendrerit, turpis sit amet pretium iaculis, urna tellus tincidunt risus, eget euismod ex urna nec mauris. Curabitur vel suscipit arcu. Quisque auctor quam leo, eu tincidunt metus lobortis ut. Sed ac nisi ac dolor consequat pellentesque ut consectetur metus. Pellentesque quis lorem eu ex dapibus tincidunt ac at erat.
 

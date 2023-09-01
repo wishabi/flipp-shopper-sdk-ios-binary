@@ -10,6 +10,8 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import os
+public struct ContextInfo {
+}
 public enum Features : Swift.String, Swift.Hashable {
   case goToURL
   case addToList
@@ -30,7 +32,9 @@ extension FlippShopperSDK.NativeXDelegate {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class FPWebView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) weak public var nativeXdelegate: FlippShopperSDK.NativeXDelegate?
+  @_Concurrency.MainActor(unsafe) public var pageContext: FlippShopperSDK.ContextInfo
   @_Concurrency.MainActor(unsafe) required public init(viewController: UIKit.UIViewController, features: [FlippShopperSDK.Features] = [], shouldAutosize: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public func setContext(contextList: [Swift.String]?, contextUrl: Swift.String?)
   @objc deinit
 }
 extension FlippShopperSDK.FPWebView : WebKit.WKScriptMessageHandler {

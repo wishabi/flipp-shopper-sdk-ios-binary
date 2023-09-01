@@ -19,6 +19,8 @@ class ManualSizeViewController: UIViewController {
 
         webview = FPWebView(viewController: self, features: [.addToList], shouldAutosize: false)
         webview.nativeXdelegate = self
+        
+        webview.setContext(contextList: ["Cheese", "Onions", "Turkey"], contextUrl: "https://myrecipesite.com/1111")
 
         tableView.dataSource = self
 
@@ -59,7 +61,7 @@ class ManualSizeViewController: UIViewController {
         webview.trailingAnchor.constraint(equalTo: containerView.trailingAnchor).isActive = true
         webview.bottomAnchor.constraint(equalTo: containerView.bottomAnchor).isActive = true
         webViewHeight = webview.heightAnchor.constraint(equalToConstant: 0)
-        webViewHeight.isActive = true
+        webViewHeight.isActive = true  
     }
 
 }

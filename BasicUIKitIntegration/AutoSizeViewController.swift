@@ -17,6 +17,8 @@ class AutoSizeViewController: UIViewController {
 
         webview = FPWebView(viewController: self, features: [.addToList])
         webview.nativeXdelegate = self
+        
+        webview.setContext(contextList: ["Cheese", "Onions", "Turkey"], contextUrl: "https://myrecipesite.com/1111")
 
         tableView.dataSource = self
 
