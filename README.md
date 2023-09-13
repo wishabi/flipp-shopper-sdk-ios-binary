@@ -124,6 +124,8 @@ And/or
 
 `func didFinishLoad(contentHeight: Double)`
 
+Note: If you are integrating the SDK into a React Native app, you will need to expose the SDK's resizing events for both manual and auto modes from the native to JS side through RCTEventEmitter otherwise the flyer will not have any height.
+
 ## Delegate methods <a name="delegate-methods"></a>
 The `FPWebView` can send events notifying your app about actions that the user has taken. 
 
