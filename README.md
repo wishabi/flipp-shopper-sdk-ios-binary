@@ -95,6 +95,22 @@ class ViewController: UIViewController, NativeXDelegate {
 }
 ```
 
+## Setting the Context
+To further personalize the content of the FPWebView, you can pass the context of the page that the experience exists in to the SDK. For example, if the user is on a beef stew recipe page, you can pass in the ingredients as keywords, and the FlippShopperSDK will try to generate beef stew-related deals.
+
+To do this, you can use the a function from FPWebView called `setContext` which takes two parameters:
+1. `contextList` - (optional) An array of strings that can contain keywords from a shopping list/recipe list/etc. Used to personalize the context 
+2. `contextUrl` - (optional) A string identifier of the current page containing the webview
+
+It is preferable to call `setContext` as close to the initialization of the FPWebView as possible.
+ 
+```swift
+webview.setContext(
+  contextList: ["beef", "carrots", "onion", "potatoes"],
+  contextUrl: "https://myrecipesite.com/1111"
+)
+```
+
 ## Features <a name="features"></a>
 The FlippShopperSDK provides additional features depending on your app's use case.
 
