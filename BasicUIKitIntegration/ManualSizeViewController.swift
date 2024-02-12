@@ -15,13 +15,15 @@ class ManualSizeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Manual size"
+        let options: Set<Options> = Set([.startCompact, .dwellExpandable])
+        
         FPShopperSDK.shared.configure(
             .dev,
             siteId: "1192075",
             zoneIds: ["260678"],
             publisherName: "wishabi-test-publisher",
             contentCode: "flipp-sdk",
-            options: [.startCompact, .dwellExpand])
+            options: options)
 
         webview = FPWebView(viewController: self, features: [.addToList], shouldAutosize: false)
         webview.nativeXdelegate = self

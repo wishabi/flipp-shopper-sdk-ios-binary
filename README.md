@@ -52,7 +52,7 @@ It is preferable to call `configure` as soon as possible, preferably near the in
 - ``publisherName`` - A string that uniquely identifies the client app. Use values provided by Flipp 
 - ``userId`` - A unique string anonymously identifying the current user that is used for frequency cap and improving content relevancy. For example, the userId can be a hashed ADID/IDFA, hashed email, internal app or account ID. Do not send PII in plain text or hardcode a static userID
 - ``contentCode`` - (optional) A string that can be used to invoke different campaign content for testing purposes
-- ``options`` - (optional) An array of loader options that can be used to customize how the ad renders. Currently, the available options are: 
+- ``options`` - (optional) A Set of loader options that can be used to customize how the ad renders. Currently, the available options are: 
     - ``.startCompact``: Renders a flyer with a smaller height of 600px 
     - ``.dwellExpand``: Enables auto-expansion of the flyer if the user keeps the ad on screen for more than 3 seconds
 
@@ -66,7 +66,7 @@ FPShopperSDK.shared.configure(
   publisherName: "publisher-name",
   userId: "abc",
   contentCode: "publisher-test",
-  options: [.startCompact, .dwellExpand]
+  options: options
 )
 ```
 

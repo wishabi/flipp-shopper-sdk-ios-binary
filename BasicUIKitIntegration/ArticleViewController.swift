@@ -13,13 +13,15 @@ class ArticleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let options: Set<Options> = Set([.startCompact, .dwellExpandable])
+        
         FPShopperSDK.shared.configure(
             .dev,
             siteId: "1192075",
             zoneIds: ["260678"],
             publisherName: "wishabi-test-publisher",
             contentCode: "flipp-sdk",
-            options: [.startCompact, .dwellExpand])
+            options: options)
 
         webview = FPWebView(viewController: self)
         webview.nativeXdelegate = self
