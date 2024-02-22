@@ -14,15 +14,12 @@ class AutoSizeViewController: UIViewController {
         super.viewDidLoad()
         title = "Auto size"
 
-        let options: Set<Options> = Set([.startCompact, .dwellExpandable])
-        
         FPShopperSDK.shared.configure(
             .dev,
             siteId: "1192075",
             zoneIds: ["260678"],
             publisherName: "wishabi-test-publisher",
-            contentCode: "flipp-sdk",
-            options: options)
+            contentCode: "flipp-sdk")
         
         webview = FPWebView(viewController: self, features: [.addToList])
         webview.nativeXdelegate = self
