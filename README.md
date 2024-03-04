@@ -11,6 +11,7 @@ To try it out, you can download or clone this repo to see it work within a sampl
 - [Features](#features)
 - [Size Modes](#size-modes)
 - [Delegate Methods](#delegate-methods)
+- [Options](#options)
 
 ___
 
@@ -52,9 +53,7 @@ It is preferable to call `configure` as soon as possible, preferably near the in
 - ``publisherName`` - A string that uniquely identifies the client app. Use values provided by Flipp 
 - ``userId`` - A unique string anonymously identifying the current user that is used for frequency cap and improving content relevancy. For example, the userId can be a hashed ADID/IDFA, hashed email, internal app or account ID. Do not send PII in plain text or hardcode a static userID
 - ``contentCode`` - (optional) A string that can be used to invoke different campaign content for testing purposes
-- ``options`` - (optional) A Set of loader options that can be used to customize how the ad renders. Currently, the available options are: 
-    - ``.startCompact``: Renders a flyer with a smaller height of 600px 
-    - ``.dwellExpand``: Enables auto-expansion of the flyer if the user keeps the ad on screen for more than 3 seconds
+- ``options`` - (optional) A Set of loader options that can be used to customize how the ad renders. [See available options](#options)
 
 
 For example:
@@ -160,3 +159,13 @@ The following events are supported:
 `func didResize(to height: Double)` - An optional method you can implement if you want to handle the webview size manually.
 
 `func didTap(item: String)` - This method can be called if you declared support for `.addToList` feature during the webview initialization. Called when the user taps on add to list button in the view.
+
+## Options <a name="options"></a>
+You can apply additional settings that customize how the ad renders through the `options` field of the `FPShopperSDK.shared.configure` initialization function. Currently, the available options are: 
+  - ``.startCompact``: Renders a flyer with a smaller height of 600px. Read more about [Mid-Article compact mode](#mid-article-compact)
+  - ``.dwellExpand``: Enables auto-expansion of the flyer if the user keeps the ad on screen for more than 3 seconds
+
+### Mid-Article Compact
+In addition to our standard ad unit size of 300x1800, the Flipp SDK offers a compact, expandable flyer unit specifically designed for mid-article placement. This unit initially appears in a smaller size (300x600) and is engineered to automatically expand as the user engages with the content. It is recommended to enable toggle on both `startCompact` and `dwellExpand` if you would like to enable compact mode. 
+
+<img src="./assets/CompactMode.png" width="25%">
