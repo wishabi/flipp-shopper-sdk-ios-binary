@@ -35,7 +35,7 @@ The standard unit has a size of 300x1800 and is designed to be placed at the bot
 
 
 ### 2. Compact Unit
-The compact unit appears in a smaller size of 300x600 and is intended for to be placed in the middle of the page. This ad type can automatically expand as the user engages with the content. To use the compact mode, it is recommended to toggle on both `startCompact` and `dwellExpand`. [Read more about these options](#options)
+The compact unit appears in a smaller size of 300x600 and is intended for to be placed in the middle of the page. This ad type can automatically expand as the user engages with the content. To use the compact mode, define both `startCompact` and `dwellExpand` as true. [Read more about these options](#options)
 
 <img src="./assets/CompactMode.png" width="25%">
 
