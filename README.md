@@ -50,9 +50,7 @@ You can use XCode's Swift Package Manager to add the FlippShopperSDK package.
 - Navigate to Package Dependecies > Click '+' to add a package.
 - Enter this [repository's URL](https://github.com/wishabi/flipp-shopper-sdk-ios-binary) as the package URL and select the package when prompted. You may have to add your GitHub credentials to XCode for authentication.
 ### Option #2: Download manually
-You can also include the SDK by downloading the `FlippShopperSDK.xcframework` manually from the repo's [framework folder](https://github.com/wishabi/flipp-shopper-sdk-ios-binary/tree/main/Frameworks/) and add it to your project by including it under Linked Frameworks and Libraries.
-
-You may also need to add it under Embedded Binaries (if using the standalone binary).
+You can also include the SDK by downloading the `flipp-shopper-sdk-x.x.x.zip` manually from the repo's [Releases page](https://github.com/wishabi/flipp-shopper-sdk-ios-binary/releases) and add it to your project by including the `FlippShopperSDK.framework` under your app's Frameworks, Libraries, and Embedded Content.
 
 ___
 ## Quick start <a name="quick-start"></a>
