@@ -6,11 +6,14 @@ To try it out, you can download or clone this repo to see it work within a sampl
 
 ## Table of Contents
 - [About the SDK](#about-flippshoppersdk)
+  - [Standard Unit](#standard-unit)
+  - [Compact Unit](#compact-unit) 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Features](#features)
 - [Size Modes](#size-modes)
 - [Delegate Methods](#delegate-methods)
+- [Options](#options)
 
 ___
 
@@ -23,6 +26,18 @@ The SDK does this by providing a custom view called `FPWebView`, which has 2 mai
 2. Provides delegate methods for your app to handle events from the `FPWebView`
 
 <img src="./assets/SDKIntegration.png" width="25%">
+
+
+The FlippShopperSDK can render ad units in two different sizes: 
+
+### 1. Standard Unit <a name="standard-unit"></a>
+The standard unit has a size of 300x1800 and is designed to be placed at the bottom of the page following any content. This is the default ad size for the FlippShopperSDK.
+
+
+### 2. Compact Unit
+The compact unit appears in a smaller size of 300x600 and is intended for to be placed in the middle of the page. This ad type can automatically expand as the user engages with the content. To use the compact mode, define both `startCompact` and `dwellExpand` as true. [Read more about these options](#options)
+
+<img src="./assets/CompactMode.png" width="25%">
 
 
 ## Installation <a name="installation"></a>
@@ -52,6 +67,7 @@ It is preferable to call `configure` as soon as possible, preferably near the in
 - ``publisherName`` - A string that uniquely identifies the client app. Use values provided by Flipp 
 - ``userId`` - A unique string anonymously identifying the current user that is used for frequency cap and improving content relevancy. For example, the userId can be a hashed ADID/IDFA, hashed email, internal app or account ID. Do not send PII in plain text or hardcode a static userID
 - ``contentCode`` - (optional) A string that can be used to invoke different campaign content for testing purposes
+- ``options`` - (optional) A Set of loader options that can be used to customize how the ad renders. [See available options](#options)
 
 
 For example:
@@ -62,7 +78,8 @@ FPShopperSDK.shared.configure(
   zoneIds: ["222"],
   publisherName: "publisher-name",
   userId: "abc",
-  contentCode: "publisher-test"
+  contentCode: "publisher-test",
+  options: options
 )
 ```
 
@@ -156,3 +173,8 @@ The following events are supported:
 `func didResize(to height: Double)` - An optional method you can implement if you want to handle the webview size manually.
 
 `func didTap(item: String)` - This method can be called if you declared support for `.addToList` feature during the webview initialization. Called when the user taps on add to list button in the view.
+
+## Options <a name="options"></a>
+You can apply additional settings that customize how the ad renders through the `options` field of the `FPShopperSDK.shared.configure` initialization function. Currently, the available options are: 
+  - ``.startCompact``: Renders a flyer with a smaller height of 600px. It is recommended to also toggle on dwellExpand with this option. Read more about the [Compact Unit](#2-compact-unit)
+  - ``.dwellExpand``: Enables auto-expansion of the flyer if the user keeps the ad on screen for more than 3 seconds
