@@ -62,7 +62,8 @@ It is preferable to call `configure` as soon as possible, preferably near the in
 - ``environment`` - The environment you'd like the SDK to work against
 - ``siteId`` - An ID that represents the SDK client. Use values provided by Flipp
 - ``zoneIds`` - (optional) An array of zones used to separate site/properties within a media partner's portfolio to facilitate content targeting. For example, a zone for sports, another for news or food. ZoneIDs are constrained to integer values and must align with the Zone ID's explicitly provided by Flipp
-- ``publisherName`` - A string that uniquely identifies the client app. Use values provided by Flipp 
+- ``publisherName`` - A string that uniquely identifies the client app. Use values provided by Flipp
+- ``domain`` - A string property indicating the app's name. Can be the same as publisherName if the publisher only owns one app
 - ``userId`` - A unique string anonymously identifying the current user that is used for frequency cap and improving content relevancy. For example, the userId can be a hashed ADID/IDFA, hashed email, internal app or account ID. Do not send PII in plain text or hardcode a static userID
 - ``contentCode`` - (optional) A string that can be used to invoke different campaign content for testing purposes
 - ``options`` - (optional) A Set of loader options that can be used to customize how the ad renders. [See available options](#options)
@@ -75,6 +76,7 @@ FPShopperSDK.shared.configure(
   siteId: "111",
   zoneIds: ["222"],
   publisherName: "publisher-name",
+  domain: "http://www.myapp.com",
   userId: "abc",
   contentCode: "publisher-test",
   options: options

@@ -21,6 +21,7 @@ class ManualSizeViewController: UIViewController {
             siteId: "1192075",
             zoneIds: ["260678"],
             publisherName: "wishabi-test-publisher",
+            domain: "http://www.myapp.com",
             contentCode: "flipp-sdk")
 
         webview = FPWebView(viewController: self, features: [.addToList], shouldAutosize: false)
