@@ -738,6 +738,97 @@
           },
           {
             "kind": "Var",
+            "name": "domain",
+            "printedName": "domain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP6domainSSvp",
+            "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP6domainSSvp",
+            "moduleName": "FlippShopperSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP6domainSSvg",
+                "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP6domainSSvg",
+                "moduleName": "FlippShopperSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "sugared_genericSig": "<Self where Self : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP6domainSSvs",
+                "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP6domainSSvs",
+                "moduleName": "FlippShopperSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "sugared_genericSig": "<Self where Self : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP6domainSSvM",
+                "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP6domainSSvM",
+                "moduleName": "FlippShopperSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "sugared_genericSig": "<Self where Self : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "contentCode",
             "printedName": "contentCode",
             "children": [
@@ -841,6 +932,145 @@
                 "declKind": "Accessor",
                 "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP11contentCodeSSSgvM",
                 "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP11contentCodeSSSgvM",
+                "moduleName": "FlippShopperSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "sugared_genericSig": "<Self where Self : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "FlippShopperSDK.Options",
+                        "usr": "s:15FlippShopperSDK7OptionsO"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP7optionsShyAA7OptionsOGSgvp",
+            "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP7optionsShyAA7OptionsOGSgvp",
+            "moduleName": "FlippShopperSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Set",
+                        "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Options",
+                            "printedName": "FlippShopperSDK.Options",
+                            "usr": "s:15FlippShopperSDK7OptionsO"
+                          }
+                        ],
+                        "usr": "s:Sh"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP7optionsShyAA7OptionsOGSgvg",
+                "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP7optionsShyAA7OptionsOGSgvg",
+                "moduleName": "FlippShopperSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "sugared_genericSig": "<Self where Self : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Set",
+                        "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Options",
+                            "printedName": "FlippShopperSDK.Options",
+                            "usr": "s:15FlippShopperSDK7OptionsO"
+                          }
+                        ],
+                        "usr": "s:Sh"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP7optionsShyAA7OptionsOGSgvs",
+                "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP7optionsShyAA7OptionsOGSgvs",
+                "moduleName": "FlippShopperSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "sugared_genericSig": "<Self where Self : FlippShopperSDK.AdditionalQueryParamsProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP7optionsShyAA7OptionsOGSgvM",
+                "mangledName": "$s15FlippShopperSDK30AdditionalQueryParamsProvidingP7optionsShyAA7OptionsOGSgvM",
                 "moduleName": "FlippShopperSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : FlippShopperSDK.AdditionalQueryParamsProviding>",
                 "sugared_genericSig": "<Self where Self : FlippShopperSDK.AdditionalQueryParamsProviding>",
@@ -1281,6 +1511,104 @@
           },
           {
             "kind": "Var",
+            "name": "domain",
+            "printedName": "domain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC6domainSSvp",
+            "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC6domainSSvp",
+            "moduleName": "FlippShopperSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC6domainSSvg",
+                "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC6domainSSvg",
+                "moduleName": "FlippShopperSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC6domainSSvs",
+                "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC6domainSSvs",
+                "moduleName": "FlippShopperSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC6domainSSvM",
+                "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC6domainSSvM",
+                "moduleName": "FlippShopperSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "contentCode",
             "printedName": "contentCode",
             "children": [
@@ -1308,7 +1636,7 @@
               "Final",
               "HasStorage"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "hasStorage": true,
             "accessors": [
               {
@@ -1403,9 +1731,156 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "FlippShopperSDK.Options",
+                        "usr": "s:15FlippShopperSDK7OptionsO"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC7optionsShyAA7OptionsOGSgvp",
+            "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC7optionsShyAA7OptionsOGSgvp",
+            "moduleName": "FlippShopperSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Set",
+                        "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Options",
+                            "printedName": "FlippShopperSDK.Options",
+                            "usr": "s:15FlippShopperSDK7OptionsO"
+                          }
+                        ],
+                        "usr": "s:Sh"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC7optionsShyAA7OptionsOGSgvg",
+                "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC7optionsShyAA7OptionsOGSgvg",
+                "moduleName": "FlippShopperSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Set",
+                        "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Options",
+                            "printedName": "FlippShopperSDK.Options",
+                            "usr": "s:15FlippShopperSDK7OptionsO"
+                          }
+                        ],
+                        "usr": "s:Sh"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC7optionsShyAA7OptionsOGSgvs",
+                "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC7optionsShyAA7OptionsOGSgvs",
+                "moduleName": "FlippShopperSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC7optionsShyAA7OptionsOGSgvM",
+                "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC7optionsShyAA7OptionsOGSgvM",
+                "moduleName": "FlippShopperSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(userId:locale:sdkVersion:publisherName:contentCode:)",
+            "printedName": "init(userId:locale:sdkVersion:publisherName:domain:contentCode:options:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1457,6 +1932,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
@@ -1469,11 +1950,34 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "FlippShopperSDK.Options",
+                        "usr": "s:15FlippShopperSDK7OptionsO"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC6userId6locale10sdkVersion13publisherName11contentCodeACSSSg_AIS2SAItcfc",
-            "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC6userId6locale10sdkVersion13publisherName11contentCodeACSSSg_AIS2SAItcfc",
+            "usr": "s:15FlippShopperSDK29AdditionalQueryParamsProviderC6userId6locale10sdkVersion13publisherName6domain11contentCode7optionsACSSSg_AKS3SAKShyAA7OptionsOGSgtcfc",
+            "mangledName": "$s15FlippShopperSDK29AdditionalQueryParamsProviderC6userId6locale10sdkVersion13publisherName6domain11contentCode7optionsACSSSg_AKS3SAKShyAA7OptionsOGSgtcfc",
             "moduleName": "FlippShopperSDK",
             "init_kind": "Designated"
           }
@@ -2692,39 +3196,6 @@
             "fixedbinaryorder": 6
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FlippShopperSDK.MessageType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageType",
-                    "printedName": "FlippShopperSDK.MessageType",
-                    "usr": "s:15FlippShopperSDK11MessageTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15FlippShopperSDK11MessageTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s15FlippShopperSDK11MessageTypeO8rawValueACSgSS_tcfc",
-            "moduleName": "FlippShopperSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -2762,6 +3233,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlippShopperSDK.MessageType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MessageType",
+                    "printedName": "FlippShopperSDK.MessageType",
+                    "usr": "s:15FlippShopperSDK11MessageTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FlippShopperSDK11MessageTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s15FlippShopperSDK11MessageTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "FlippShopperSDK",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -3957,6 +4461,55 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "timeoutSeconds",
+                "printedName": "timeoutSeconds",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15FlippShopperSDK9FPWebViewC9ConstantsV14timeoutSecondsSdvpZ",
+                "mangledName": "$s15FlippShopperSDK9FPWebViewC9ConstantsV14timeoutSecondsSdvpZ",
+                "moduleName": "FlippShopperSDK",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15FlippShopperSDK9FPWebViewC9ConstantsV14timeoutSecondsSdvgZ",
+                    "mangledName": "$s15FlippShopperSDK9FPWebViewC9ConstantsV14timeoutSecondsSdvgZ",
+                    "moduleName": "FlippShopperSDK",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -4542,6 +5095,58 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlippShopperSDK@objc(cs)FPWebView(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s15FlippShopperSDK9FPWebViewC03webE0_28didFailProvisionalNavigation9withErrorySo05WKWebE0C_So12WKNavigationCSgs0L0_ptF",
+            "moduleName": "FlippShopperSDK",
+            "isOpen": true,
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4618,6 +5223,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -4952,13 +5564,212 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Options",
+        "printedName": "Options",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "startCompact",
+            "printedName": "startCompact",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlippShopperSDK.Options.Type) -> FlippShopperSDK.Options",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "FlippShopperSDK.Options",
+                    "usr": "s:15FlippShopperSDK7OptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlippShopperSDK.Options.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "FlippShopperSDK.Options",
+                        "usr": "s:15FlippShopperSDK7OptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15FlippShopperSDK7OptionsO12startCompactyA2CmF",
+            "mangledName": "$s15FlippShopperSDK7OptionsO12startCompactyA2CmF",
+            "moduleName": "FlippShopperSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "dwellExpandable",
+            "printedName": "dwellExpandable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlippShopperSDK.Options.Type) -> FlippShopperSDK.Options",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "FlippShopperSDK.Options",
+                    "usr": "s:15FlippShopperSDK7OptionsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlippShopperSDK.Options.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "FlippShopperSDK.Options",
+                        "usr": "s:15FlippShopperSDK7OptionsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15FlippShopperSDK7OptionsO15dwellExpandableyA2CmF",
+            "mangledName": "$s15FlippShopperSDK7OptionsO15dwellExpandableyA2CmF",
+            "moduleName": "FlippShopperSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FlippShopperSDK7OptionsO8rawValueSSvp",
+            "mangledName": "$s15FlippShopperSDK7OptionsO8rawValueSSvp",
+            "moduleName": "FlippShopperSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK7OptionsO8rawValueSSvg",
+                "mangledName": "$s15FlippShopperSDK7OptionsO8rawValueSSvg",
+                "moduleName": "FlippShopperSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlippShopperSDK.Options?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "FlippShopperSDK.Options",
+                    "usr": "s:15FlippShopperSDK7OptionsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FlippShopperSDK7OptionsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s15FlippShopperSDK7OptionsO8rawValueACSgSS_tcfc",
+            "moduleName": "FlippShopperSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15FlippShopperSDK7OptionsO",
+        "mangledName": "$s15FlippShopperSDK7OptionsO",
+        "moduleName": "FlippShopperSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FlippShopperSDKProtocol",
         "printedName": "FlippShopperSDKProtocol",
         "children": [
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(_:siteId:zoneIds:publisherName:userId:contentCode:)",
+            "printedName": "configure(_:siteId:zoneIds:publisherName:domain:userId:contentCode:options:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4999,6 +5810,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
@@ -5024,11 +5841,33 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "FlippShopperSDK.Options",
+                        "usr": "s:15FlippShopperSDK7OptionsO"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15FlippShopperSDK0aB11SDKProtocolP9configure_6siteId7zoneIds13publisherName04userG011contentCodeyAA11EnvironmentO_SSSaySSGS2SSgAMtF",
-            "mangledName": "$s15FlippShopperSDK0aB11SDKProtocolP9configure_6siteId7zoneIds13publisherName04userG011contentCodeyAA11EnvironmentO_SSSaySSGS2SSgAMtF",
+            "usr": "s:15FlippShopperSDK0aB11SDKProtocolP9configure_6siteId7zoneIds13publisherName6domain04userG011contentCode7optionsyAA11EnvironmentO_SSSaySSGS3SSgAOShyAA7OptionsOGSgtF",
+            "mangledName": "$s15FlippShopperSDK0aB11SDKProtocolP9configure_6siteId7zoneIds13publisherName6domain04userG011contentCode7optionsyAA11EnvironmentO_SSSaySSGS3SSgAOShyAA7OptionsOGSgtF",
             "moduleName": "FlippShopperSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : FlippShopperSDK.FlippShopperSDKProtocol>",
             "sugared_genericSig": "<Self where Self : FlippShopperSDK.FlippShopperSDKProtocol>",
@@ -5266,7 +6105,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(_:siteId:zoneIds:publisherName:userId:contentCode:)",
+            "printedName": "configure(_:siteId:zoneIds:publisherName:domain:userId:contentCode:options:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5307,6 +6146,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
@@ -5334,11 +6179,34 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Set<FlippShopperSDK.Options>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<FlippShopperSDK.Options>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Options",
+                        "printedName": "FlippShopperSDK.Options",
+                        "usr": "s:15FlippShopperSDK7OptionsO"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15FlippShopperSDK09FPShopperC0C9configure_6siteId7zoneIds13publisherName04userG011contentCodeyAA11EnvironmentO_SSSaySSGS2SSgAMtF",
-            "mangledName": "$s15FlippShopperSDK09FPShopperC0C9configure_6siteId7zoneIds13publisherName04userG011contentCodeyAA11EnvironmentO_SSSaySSGS2SSgAMtF",
+            "usr": "s:15FlippShopperSDK09FPShopperC0C9configure_6siteId7zoneIds13publisherName6domain04userG011contentCode7optionsyAA11EnvironmentO_SSSaySSGS3SSgAOShyAA7OptionsOGSgtF",
+            "mangledName": "$s15FlippShopperSDK09FPShopperC0C9configure_6siteId7zoneIds13publisherName6domain04userG011contentCode7optionsyAA11EnvironmentO_SSSaySSGS3SSgAOShyAA7OptionsOGSgtF",
             "moduleName": "FlippShopperSDK",
             "declAttributes": [
               "Final",
@@ -6198,6 +7066,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -6307,284 +7182,893 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 93,
+      "value": "\"window.handleMessageFromNative({\"type\":\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 782,
+      "length": 1,
+      "value": "\"\",\"detail\": null });\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1066,
+      "length": 27,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1075,
+      "length": 1,
+      "value": "\"\": \"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 1,
+      "value": "\"\",\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1148,
+      "length": 23,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 1,
+      "value": "\"\": \""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1169,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 105,
+      "value": "\"window.handleMessageFromNative({\"type\":\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1433,
+      "length": 1,
+      "value": "\"\",\"detail\": { \""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 1,
+      "value": "\" } });\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 757,
       "length": 8,
       "value": "\"height\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 794,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 829,
       "length": 6,
       "value": "\"text\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 863,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 904,
       "length": 14,
       "value": "\"content-type\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "Array",
+      "offset": 1309,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1381,
+      "length": 86,
+      "value": "\"Error handling received message, failed to parse out json from incoming message data\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1537,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1590,
+      "length": 8,
+      "value": "\"detail\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 111,
+      "value": "\"Error handling received message, failed to parse out json from incoming message data. Missing type or details\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 77,
+      "value": "\"Missing `text`, `or` or `content-type` in the `request add to list` message\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2167,
+      "length": 61,
+      "value": "\"Did receive `request add to list` message with item:\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2227,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2337,
+      "length": 41,
+      "value": "\"Did receive `request-go-to-url` message\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2557,
+      "length": 50,
+      "value": "\"Missing `url` in the `request-go-to-url` message\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2836,
+      "length": 55,
+      "value": "\"Missing `height` parameter in `content-ready` message\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2973,
+      "length": 37,
+      "value": "\"Did receive `content-ready` message\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 3119,
+      "length": 16,
+      "value": "\"Failed to load\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 3525,
+      "length": 56,
+      "value": "\"Missing `height` parameter in `request-resize` message\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 3663,
+      "length": 38,
+      "value": "\"Did receive `request-resize` message\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 3859,
+      "length": 36,
+      "value": "\"Unhandled message from JS: \""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 3894,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 348,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 15,
       "value": "\"content-ready\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 21,
       "value": "\"request-add-to-list\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 19,
       "value": "\"request-go-to-url\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 17,
       "value": "\"experience-load\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 21,
       "value": "\"experience-viewport\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 20,
       "value": "\"content-load-error\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 16,
       "value": "\"request-resize\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 15,
       "value": "\"content-ready\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 21,
       "value": "\"request-add-to-list\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 19,
       "value": "\"request-go-to-url\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 17,
       "value": "\"experience-load\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 21,
       "value": "\"experience-viewport\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 20,
       "value": "\"content-load-error\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 16,
       "value": "\"request-resize\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1123,
       "length": 19,
       "value": "\"request-go-to-url\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 21,
       "value": "\"request-add-to-list\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1123,
       "length": 19,
       "value": "\"request-go-to-url\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 21,
       "value": "\"request-add-to-list\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1631,
       "length": 15,
       "value": "\"NativeXBridge\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "FloatLiteral",
       "offset": 1682,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 8,
       "value": "\"height\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1754,
       "length": 5,
       "value": "\"top\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1790,
       "length": 10,
       "value": "\"features\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1834,
       "length": 14,
       "value": "\"context_list\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1881,
       "length": 13,
       "value": "\"context_url\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1931,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "Array",
-      "offset": 2410,
+      "offset": 2450,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2426,
+      "offset": 2466,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2619,
+      "offset": 2659,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "Array",
-      "offset": 3703,
+      "offset": 3736,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3755,
+      "offset": 3788,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 676,
-      "length": 7,
-      "value": "\"0.0.3\""
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "Array",
+      "offset": 4658,
+      "length": 2,
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/WebViewDelegateHolder.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4708,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4996,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5062,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5172,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5255,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5328,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5407,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5483,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5741,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 6540,
+      "length": 68,
+      "value": "\"Root controller wasn't passed or the view doesn't have a superview\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7246,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7368,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7756,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8332,
+      "length": 66,
+      "value": "\"Sending `experience-load` with the following details: \""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8397,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8850,
+      "length": 58,
+      "value": "\"Error loading the webview: \""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 8907,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9083,
+      "length": 81,
+      "value": "\"Sending `experience-viewport` with top: \""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9137,
+      "length": 1,
+      "value": "\", height: \""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 9163,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 10087,
+      "length": 25,
+      "value": "\"JS message missing body\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10496,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10730,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10960,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 19,
+      "value": "\"shopper.flipp.com\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 28,
+      "value": "\"\/tag\/html\/staging\/sdk.html\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 20,
+      "value": "\"\/tag\/html\/sdk.html\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 23,
+      "value": "\"SiteId can't be empty\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 868,
+      "length": 24,
+      "value": "\"ZoneIds can't be empty\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 950,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1218,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1268,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1343,
+      "length": 8,
+      "value": "\"siteId\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1414,
+      "length": 8,
+      "value": "\"zoneId\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1557,
+      "length": 5,
+      "value": "\"sdk\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1629,
+      "length": 15,
+      "value": "\"publisherName\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 8,
+      "value": "\"domain\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 8,
+      "value": "\"locale\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1990,
+      "length": 20,
+      "value": "\"flipp-content-code\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 2215,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 2323,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 129,
+      "length": 14,
+      "value": "\"startCompact\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 17,
+      "value": "\"dwellExpandable\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 129,
+      "length": 14,
+      "value": "\"startCompact\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 17,
+      "value": "\"dwellExpandable\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 876,
+      "length": 7,
+      "value": "\"0.0.6\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 30,
+      "value": "\"publisherName can't be empty\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1636,
+      "length": 46,
+      "value": "\"UserId passed:\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1681,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1767,
+      "length": 36,
+      "value": "\"Content code passed:\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1880,
+      "length": 27,
+      "value": "\"Options passed:\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1906,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2781,
+      "length": 32,
+      "value": "\"Couldn't create a native-x URL\""
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/WebViewDelegateHolder.swift",
       "kind": "StringLiteral",
       "offset": 71,
       "length": 21,
       "value": "\"FlippShopperSDK.WebViewDelegateHolder\""
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/URLOpener.swift",
+      "kind": "Dictionary",
+      "offset": 534,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 521,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jenkins\/actions-runner-1\/_work\/flipp-shopper-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 647,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
     }
   ]
 }

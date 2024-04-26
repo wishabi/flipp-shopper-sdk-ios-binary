@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FlippShopperSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -9,6 +9,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os
 public struct ContextInfo {
 }
@@ -25,13 +26,13 @@ public protocol NativeXDelegate : AnyObject {
   func didResize(to height: Swift.Double)
   func didTap(item: Swift.String)
   func didFinishLoad(contentHeight: Swift.Double)
-  func didFailToLoad(error: Swift.Error)
+  func didFailToLoad(error: any Swift.Error)
 }
 extension FlippShopperSDK.NativeXDelegate {
   public func didResize(to height: Swift.Double)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class FPWebView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) weak public var nativeXdelegate: FlippShopperSDK.NativeXDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var nativeXdelegate: (any FlippShopperSDK.NativeXDelegate)?
   @_Concurrency.MainActor(unsafe) public var pageContext: FlippShopperSDK.ContextInfo
   @_Concurrency.MainActor(unsafe) required public init(viewController: UIKit.UIViewController, features: [FlippShopperSDK.Features] = [], shouldAutosize: Swift.Bool = true)
   @_Concurrency.MainActor(unsafe) public func setContext(contextList: [Swift.String]?, contextUrl: Swift.String?)
@@ -42,7 +43,8 @@ extension FlippShopperSDK.FPWebView : WebKit.WKScriptMessageHandler {
 }
 extension FlippShopperSDK.FPWebView : WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
 }
 public enum Environment {
   case dev, production
@@ -52,12 +54,24 @@ public enum Environment {
     get
   }
 }
+public enum Options : Swift.String {
+  case startCompact
+  case dwellExpandable
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class FPShopperSDK : ObjectiveC.NSObject {
   public static let version: Swift.String
   public static var shared: FlippShopperSDK.FPShopperSDK
-  final public func configure(_ environment: FlippShopperSDK.Environment, siteId: Swift.String, zoneIds: [Swift.String], publisherName: Swift.String, userId: Swift.String? = nil, contentCode: Swift.String? = nil)
+  final public func configure(_ environment: FlippShopperSDK.Environment, siteId: Swift.String, zoneIds: [Swift.String], publisherName: Swift.String, domain: Swift.String, userId: Swift.String? = nil, contentCode: Swift.String? = nil, options: Swift.Set<FlippShopperSDK.Options>? = nil)
   @objc deinit
 }
 extension FlippShopperSDK.Features : Swift.RawRepresentable {}
 extension FlippShopperSDK.Environment : Swift.Equatable {}
 extension FlippShopperSDK.Environment : Swift.Hashable {}
+extension FlippShopperSDK.Options : Swift.Equatable {}
+extension FlippShopperSDK.Options : Swift.Hashable {}
+extension FlippShopperSDK.Options : Swift.RawRepresentable {}
