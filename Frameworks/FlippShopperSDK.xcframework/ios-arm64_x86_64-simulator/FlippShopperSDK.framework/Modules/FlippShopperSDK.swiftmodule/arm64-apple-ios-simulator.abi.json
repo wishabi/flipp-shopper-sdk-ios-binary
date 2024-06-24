@@ -5226,13 +5226,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -7066,13 +7059,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -7182,889 +7168,889 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 93,
       "value": "\"window.handleMessageFromNative({\"type\":\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 782,
       "length": 1,
       "value": "\"\",\"detail\": null });\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 944,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1066,
       "length": 27,
       "value": "\"\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1075,
       "length": 1,
       "value": "\"\": \"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1089,
       "length": 1,
       "value": "\"\",\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 23,
       "value": "\"\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1157,
       "length": 1,
       "value": "\"\": \""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1169,
       "length": 1,
       "value": "\",\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1375,
       "length": 105,
       "value": "\"window.handleMessageFromNative({\"type\":\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1433,
       "length": 1,
       "value": "\"\",\"detail\": { \""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
       "kind": "StringLiteral",
       "offset": 1466,
       "length": 1,
       "value": "\" } });\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 757,
       "length": 8,
       "value": "\"height\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 794,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 829,
       "length": 6,
       "value": "\"text\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 863,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 904,
       "length": 14,
       "value": "\"content-type\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "Array",
       "offset": 1309,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 1381,
       "length": 86,
       "value": "\"Error handling received message, failed to parse out json from incoming message data\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 1537,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 8,
       "value": "\"detail\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 1668,
       "length": 111,
       "value": "\"Error handling received message, failed to parse out json from incoming message data. Missing type or details\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 2008,
       "length": 77,
       "value": "\"Missing `text`, `or` or `content-type` in the `request add to list` message\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 2167,
       "length": 61,
       "value": "\"Did receive `request add to list` message with item:\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 2227,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 2337,
       "length": 41,
       "value": "\"Did receive `request-go-to-url` message\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 2557,
       "length": 50,
       "value": "\"Missing `url` in the `request-go-to-url` message\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 2836,
       "length": 55,
       "value": "\"Missing `height` parameter in `content-ready` message\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 2973,
       "length": 37,
       "value": "\"Did receive `content-ready` message\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 3119,
       "length": 16,
       "value": "\"Failed to load\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 3525,
       "length": 56,
       "value": "\"Missing `height` parameter in `request-resize` message\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 3663,
       "length": 38,
       "value": "\"Did receive `request-resize` message\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 3859,
       "length": 36,
       "value": "\"Unhandled message from JS: \""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 3894,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 348,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 15,
       "value": "\"content-ready\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 21,
       "value": "\"request-add-to-list\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 19,
       "value": "\"request-go-to-url\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 17,
       "value": "\"experience-load\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 21,
       "value": "\"experience-viewport\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 20,
       "value": "\"content-load-error\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 16,
       "value": "\"request-resize\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 15,
       "value": "\"content-ready\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 21,
       "value": "\"request-add-to-list\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 19,
       "value": "\"request-go-to-url\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 17,
       "value": "\"experience-load\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 21,
       "value": "\"experience-viewport\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 20,
       "value": "\"content-load-error\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 16,
       "value": "\"request-resize\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1123,
       "length": 19,
       "value": "\"request-go-to-url\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 21,
       "value": "\"request-add-to-list\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1123,
       "length": 19,
       "value": "\"request-go-to-url\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1225,
       "length": 21,
       "value": "\"request-add-to-list\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1631,
       "length": 15,
       "value": "\"NativeXBridge\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "FloatLiteral",
       "offset": 1682,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 8,
       "value": "\"height\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1754,
       "length": 5,
       "value": "\"top\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1790,
       "length": 10,
       "value": "\"features\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1834,
       "length": 14,
       "value": "\"context_list\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 1881,
       "length": 13,
       "value": "\"context_url\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "FloatLiteral",
       "offset": 1931,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "Array",
       "offset": 2450,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 2466,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 2659,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "Array",
       "offset": 3736,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 3788,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "Array",
       "offset": 4658,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
       "offset": 4708,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 4996,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 5062,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 5172,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 5255,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 5328,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 5407,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 5483,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 5741,
+      "offset": 5739,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6540,
+      "offset": 6538,
       "length": 68,
       "value": "\"Root controller wasn't passed or the view doesn't have a superview\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7246,
+      "offset": 7244,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7368,
+      "offset": 7366,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7756,
+      "offset": 7754,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8332,
+      "offset": 8330,
       "length": 66,
       "value": "\"Sending `experience-load` with the following details: \""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8397,
+      "offset": 8395,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8850,
+      "offset": 8848,
       "length": 58,
       "value": "\"Error loading the webview: \""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8907,
+      "offset": 8905,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 9083,
+      "offset": 9081,
       "length": 81,
       "value": "\"Sending `experience-viewport` with top: \""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 9137,
+      "offset": 9135,
       "length": 1,
       "value": "\", height: \""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 9163,
+      "offset": 9161,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 10087,
+      "offset": 10085,
       "length": 25,
       "value": "\"JS message missing body\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10496,
+      "offset": 10494,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10730,
+      "offset": 10728,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10960,
+      "offset": 10958,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 19,
       "value": "\"shopper.flipp.com\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 28,
       "value": "\"\/tag\/html\/staging\/sdk.html\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 518,
       "length": 20,
       "value": "\"\/tag\/html\/sdk.html\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 738,
       "length": 23,
       "value": "\"SiteId can't be empty\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 868,
       "length": 24,
       "value": "\"ZoneIds can't be empty\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 950,
       "length": 5,
       "value": "\"ios\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1218,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1343,
       "length": 8,
       "value": "\"siteId\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1414,
       "length": 8,
       "value": "\"zoneId\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1486,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1557,
       "length": 5,
       "value": "\"sdk\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1629,
       "length": 15,
       "value": "\"publisherName\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1714,
       "length": 8,
       "value": "\"domain\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1842,
       "length": 8,
       "value": "\"locale\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 1990,
       "length": 20,
       "value": "\"flipp-content-code\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 2215,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 2323,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 14,
       "value": "\"startCompact\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 17,
       "value": "\"dwellExpandable\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 14,
       "value": "\"startCompact\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 17,
       "value": "\"dwellExpandable\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 876,
       "length": 7,
-      "value": "\"0.0.6\""
+      "value": "\"0.1.2\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 30,
       "value": "\"publisherName can't be empty\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 1636,
       "length": 46,
       "value": "\"UserId passed:\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 1681,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 1767,
       "length": 36,
       "value": "\"Content code passed:\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 1802,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 1880,
       "length": 27,
       "value": "\"Options passed:\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 1906,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
       "kind": "StringLiteral",
       "offset": 2781,
       "length": 32,
       "value": "\"Couldn't create a native-x URL\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/WebViewDelegateHolder.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/WebViewDelegateHolder.swift",
       "kind": "StringLiteral",
       "offset": 71,
       "length": 21,
       "value": "\"FlippShopperSDK.WebViewDelegateHolder\""
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/URLOpener.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/URLOpener.swift",
       "kind": "Dictionary",
       "offset": 534,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 521,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 647,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Mike.Lei\/flipp-sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
       "kind": "StringLiteral",
       "offset": 1041,
       "length": 39,
