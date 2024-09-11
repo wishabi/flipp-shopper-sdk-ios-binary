@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/FlippShopperSDK-Swift.h</key>
 		<data>
-		kHiafCbo05DAr7zZWpct1f530dI=
+		uhTBEyTBWhitWBsm82IDYj+lg7A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XYXXlapfvrfUOaGuCJN6rMtpVWM=
+		TqsZxStK43azQmri7pjUmJZ8th4=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JkaFbMRjEa6Wdk/islVRJZPTbQ4=
+		FL7hrLq2vcRLPFQ/lPMxi7rmKEM=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dpaJdW9gGrVqjvx2oXVV8o9yYY0=
+		JrCg3udjM+2MEM46WkjpVWAhHss=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		iaUk+xX8d0kwvDc5fwzHW4/WCYw=
+		0MyDMMLnk4jqM2K51M6wZv+Vjmw=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dpaJdW9gGrVqjvx2oXVV8o9yYY0=
+		JrCg3udjM+2MEM46WkjpVWAhHss=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t0wPet1JLLoGlQlHVRGVvPIUnkg=
+		DUbfuQUaUUaMJpuB7b0nZIcEqdI=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JkaFbMRjEa6Wdk/islVRJZPTbQ4=
+		FL7hrLq2vcRLPFQ/lPMxi7rmKEM=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		N2QyQFDSY9Apvj7U1X0DmSyqhSY=
+		6ClficGh/ZMozgHjEKQDsqXYdc0=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		O+6xS7j1S8BEqL80XuBLDznt7Gc=
+		k7yQusA8ZQLcvlCm2ccUPeHQ/kU=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		N2QyQFDSY9Apvj7U1X0DmSyqhSY=
+		6ClficGh/ZMozgHjEKQDsqXYdc0=
 		</data>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3krcb+DW0fWFH316yC+Bm5E57Ko=
+		0PBCPD7sVl8cmCSuEL7avd9LA20=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,121 +59,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kHiafCbo05DAr7zZWpct1f530dI=
+			uhTBEyTBWhitWBsm82IDYj+lg7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			2clRLYx6K5EDXbehLdCXUiZBDpaTpouh0ebQ7lLbGDo=
+			KiGZQABd1YNxrNSGCEeqogKqHbtfozFAQvM3IGvD0YI=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JkaFbMRjEa6Wdk/islVRJZPTbQ4=
+			FL7hrLq2vcRLPFQ/lPMxi7rmKEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			g7OsGNrKO7WSG4wqKC3r5XKDaWMjdUROhlndPLJT6G8=
+			lYLx0w1Pcge9pgfW2ccwdHeHyCHW+aL7bWYumfVQElQ=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dpaJdW9gGrVqjvx2oXVV8o9yYY0=
+			JrCg3udjM+2MEM46WkjpVWAhHss=
 			</data>
 			<key>hash2</key>
 			<data>
-			AUlFsivdOaBw92WM4ARnppwRmXEey8nxRBDIpYbldGU=
+			Blof6h/+fNFxqd8FH7xkgvDSGrAPc8jthI8wdneb2kE=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iaUk+xX8d0kwvDc5fwzHW4/WCYw=
+			0MyDMMLnk4jqM2K51M6wZv+Vjmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			aY0Q+LQfQgCIxaxCRebl7K3YdSmTFI/y1UajEoP92UI=
+			iJ+IymtuCy/xAiOxzGwVgjb6NIEe1BC1NRyL5WztWbw=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dpaJdW9gGrVqjvx2oXVV8o9yYY0=
+			JrCg3udjM+2MEM46WkjpVWAhHss=
 			</data>
 			<key>hash2</key>
 			<data>
-			AUlFsivdOaBw92WM4ARnppwRmXEey8nxRBDIpYbldGU=
+			Blof6h/+fNFxqd8FH7xkgvDSGrAPc8jthI8wdneb2kE=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t0wPet1JLLoGlQlHVRGVvPIUnkg=
+			DUbfuQUaUUaMJpuB7b0nZIcEqdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XKfe8x7QAXnwZ7PqWbG+W9DNn6MkOe/guMQ2AHVOq0w=
+			Xfgs3odPaNTuCIoY9FLpTVqfUxeiT/YlrbslfGhq6Bo=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JkaFbMRjEa6Wdk/islVRJZPTbQ4=
+			FL7hrLq2vcRLPFQ/lPMxi7rmKEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			g7OsGNrKO7WSG4wqKC3r5XKDaWMjdUROhlndPLJT6G8=
+			lYLx0w1Pcge9pgfW2ccwdHeHyCHW+aL7bWYumfVQElQ=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N2QyQFDSY9Apvj7U1X0DmSyqhSY=
+			6ClficGh/ZMozgHjEKQDsqXYdc0=
 			</data>
 			<key>hash2</key>
 			<data>
-			n092R3zwog5Th5+yKEeHc12EJsfjwhMGwwSxAoZ1XmQ=
+			J64zst3hPV96/zmFVwzMB4T2OpnDLWPR3fmDMTKfE3I=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O+6xS7j1S8BEqL80XuBLDznt7Gc=
+			k7yQusA8ZQLcvlCm2ccUPeHQ/kU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zp+qc8a/H9glpmWid6/AfwzOUl9ZChgbYtMg4WbZcdM=
+			P2QP57G83beGNlrGhuq+fESgBCrKTxILnlvg4Fmx9wI=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N2QyQFDSY9Apvj7U1X0DmSyqhSY=
+			6ClficGh/ZMozgHjEKQDsqXYdc0=
 			</data>
 			<key>hash2</key>
 			<data>
-			n092R3zwog5Th5+yKEeHc12EJsfjwhMGwwSxAoZ1XmQ=
+			J64zst3hPV96/zmFVwzMB4T2OpnDLWPR3fmDMTKfE3I=
 			</data>
 		</dict>
 		<key>Modules/FlippShopperSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3krcb+DW0fWFH316yC+Bm5E57Ko=
+			0PBCPD7sVl8cmCSuEL7avd9LA20=
 			</data>
 			<key>hash2</key>
 			<data>
-			7pjby+Q+T7WC70VSg0MGMWeOwgHicsN93rpvPELplHc=
+			DC850+CFHYFYWE7a4+mtIumGiqoLfPfX+oS7XKZIFsY=
 			</data>
 		</dict>
 	</dict>
