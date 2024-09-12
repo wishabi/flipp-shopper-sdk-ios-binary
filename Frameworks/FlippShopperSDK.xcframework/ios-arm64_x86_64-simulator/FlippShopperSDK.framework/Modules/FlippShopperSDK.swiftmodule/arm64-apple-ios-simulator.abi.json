@@ -285,9 +285,88 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "screenHeight",
+            "printedName": "screenHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FlippShopperSDK24ExperienceViewportDetailV12screenHeightSivp",
+            "mangledName": "$s15FlippShopperSDK24ExperienceViewportDetailV12screenHeightSivp",
+            "moduleName": "FlippShopperSDK",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FlippShopperSDK24ExperienceViewportDetailV12screenHeightSivg",
+                "mangledName": "$s15FlippShopperSDK24ExperienceViewportDetailV12screenHeightSivg",
+                "moduleName": "FlippShopperSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExperienceViewportDetail",
+                "printedName": "FlippShopperSDK.ExperienceViewportDetail",
+                "usr": "s:15FlippShopperSDK24ExperienceViewportDetailV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExperienceViewportDetail",
+                "printedName": "FlippShopperSDK.ExperienceViewportDetail",
+                "usr": "s:15FlippShopperSDK24ExperienceViewportDetailV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FlippShopperSDK24ExperienceViewportDetailV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15FlippShopperSDK24ExperienceViewportDetailV2eeoiySbAC_ACtFZ",
+            "moduleName": "FlippShopperSDK",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(top:height:)",
+            "printedName": "init(top:height:screenHeight:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -306,11 +385,17 @@
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15FlippShopperSDK24ExperienceViewportDetailV3top6heightACSi_Sitcfc",
-            "mangledName": "$s15FlippShopperSDK24ExperienceViewportDetailV3top6heightACSi_Sitcfc",
+            "usr": "s:15FlippShopperSDK24ExperienceViewportDetailV3top6height12screenHeightACSi_S2itcfc",
+            "mangledName": "$s15FlippShopperSDK24ExperienceViewportDetailV3top6height12screenHeightACSi_S2itcfc",
             "moduleName": "FlippShopperSDK",
             "implicit": true,
             "init_kind": "Designated"
@@ -2029,12 +2114,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FlippShopperSDK.NativeXDelegate?",
+                "printedName": "(any FlippShopperSDK.NativeXDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "NativeXDelegate",
-                    "printedName": "FlippShopperSDK.NativeXDelegate",
+                    "printedName": "any FlippShopperSDK.NativeXDelegate",
                     "usr": "s:15FlippShopperSDK15NativeXDelegateP"
                   }
                 ],
@@ -2055,12 +2140,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "FlippShopperSDK.NativeXDelegate?",
+                    "printedName": "(any FlippShopperSDK.NativeXDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "NativeXDelegate",
-                        "printedName": "FlippShopperSDK.NativeXDelegate",
+                        "printedName": "any FlippShopperSDK.NativeXDelegate",
                         "usr": "s:15FlippShopperSDK15NativeXDelegateP"
                       }
                     ],
@@ -2550,7 +2635,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "FlippShopperSDK.NativeXDelegate?"
+                "printedName": "(any FlippShopperSDK.NativeXDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -2575,12 +2660,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "FlippShopperSDK.NativeXDelegate?",
+                    "printedName": "(any FlippShopperSDK.NativeXDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "NativeXDelegate",
-                        "printedName": "FlippShopperSDK.NativeXDelegate",
+                        "printedName": "any FlippShopperSDK.NativeXDelegate",
                         "usr": "s:15FlippShopperSDK15NativeXDelegateP"
                       }
                     ],
@@ -2611,12 +2696,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "FlippShopperSDK.NativeXDelegate?",
+                    "printedName": "(any FlippShopperSDK.NativeXDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "NativeXDelegate",
-                        "printedName": "FlippShopperSDK.NativeXDelegate",
+                        "printedName": "any FlippShopperSDK.NativeXDelegate",
                         "usr": "s:15FlippShopperSDK15NativeXDelegateP"
                       }
                     ],
@@ -2698,12 +2783,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FlippShopperSDK.NativeXDelegate?",
+                "printedName": "(any FlippShopperSDK.NativeXDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "NativeXDelegate",
-                    "printedName": "FlippShopperSDK.NativeXDelegate",
+                    "printedName": "any FlippShopperSDK.NativeXDelegate",
                     "usr": "s:15FlippShopperSDK15NativeXDelegateP"
                   }
                 ],
@@ -3196,6 +3281,39 @@
             "fixedbinaryorder": 6
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlippShopperSDK.MessageType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MessageType",
+                    "printedName": "FlippShopperSDK.MessageType",
+                    "usr": "s:15FlippShopperSDK11MessageTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FlippShopperSDK11MessageTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s15FlippShopperSDK11MessageTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "FlippShopperSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -3233,39 +3351,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FlippShopperSDK.MessageType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageType",
-                    "printedName": "FlippShopperSDK.MessageType",
-                    "usr": "s:15FlippShopperSDK11MessageTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15FlippShopperSDK11MessageTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s15FlippShopperSDK11MessageTypeO8rawValueACSgSS_tcfc",
-            "moduleName": "FlippShopperSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -3692,12 +3777,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FlippShopperSDK.JSLoadingState.Type) -> (Swift.Error) -> FlippShopperSDK.JSLoadingState",
+                "printedName": "(FlippShopperSDK.JSLoadingState.Type) -> (any Swift.Error) -> FlippShopperSDK.JSLoadingState",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> FlippShopperSDK.JSLoadingState",
+                    "printedName": "(any Swift.Error) -> FlippShopperSDK.JSLoadingState",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3708,7 +3793,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -4056,7 +4141,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -4510,6 +4595,55 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "screenHeightKey",
+                "printedName": "screenHeightKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15FlippShopperSDK9FPWebViewC9ConstantsV15screenHeightKeySSvpZ",
+                "mangledName": "$s15FlippShopperSDK9FPWebViewC9ConstantsV15screenHeightKeySSvpZ",
+                "moduleName": "FlippShopperSDK",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15FlippShopperSDK9FPWebViewC9ConstantsV15screenHeightKeySSvgZ",
+                    "mangledName": "$s15FlippShopperSDK9FPWebViewC9ConstantsV15screenHeightKeySSvgZ",
+                    "moduleName": "FlippShopperSDK",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -4551,7 +4685,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "FlippShopperSDK.NativeXDelegate?"
+                "printedName": "(any FlippShopperSDK.NativeXDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4560,9 +4694,9 @@
             "moduleName": "FlippShopperSDK",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -4577,12 +4711,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "FlippShopperSDK.NativeXDelegate?",
+                    "printedName": "(any FlippShopperSDK.NativeXDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "NativeXDelegate",
-                        "printedName": "FlippShopperSDK.NativeXDelegate",
+                        "printedName": "any FlippShopperSDK.NativeXDelegate",
                         "usr": "s:15FlippShopperSDK15NativeXDelegateP"
                       }
                     ],
@@ -4610,12 +4744,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "FlippShopperSDK.NativeXDelegate?",
+                    "printedName": "(any FlippShopperSDK.NativeXDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "NativeXDelegate",
-                        "printedName": "FlippShopperSDK.NativeXDelegate",
+                        "printedName": "any FlippShopperSDK.NativeXDelegate",
                         "usr": "s:15FlippShopperSDK15NativeXDelegateP"
                       }
                     ],
@@ -4669,9 +4803,9 @@
             "moduleName": "FlippShopperSDK",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5077,7 +5211,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -5129,7 +5263,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -5223,6 +5357,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -5407,7 +5548,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AdditionalQueryParamsProviding",
-                "printedName": "FlippShopperSDK.AdditionalQueryParamsProviding",
+                "printedName": "any FlippShopperSDK.AdditionalQueryParamsProviding",
                 "usr": "s:15FlippShopperSDK30AdditionalQueryParamsProvidingP"
               }
             ],
@@ -5635,6 +5776,39 @@
             "moduleName": "FlippShopperSDK"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlippShopperSDK.Options?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Options",
+                    "printedName": "FlippShopperSDK.Options",
+                    "usr": "s:15FlippShopperSDK7OptionsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FlippShopperSDK7OptionsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s15FlippShopperSDK7OptionsO8rawValueACSgSS_tcfc",
+            "moduleName": "FlippShopperSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -5672,39 +5846,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FlippShopperSDK.Options?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Options",
-                    "printedName": "FlippShopperSDK.Options",
-                    "usr": "s:15FlippShopperSDK7OptionsO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15FlippShopperSDK7OptionsO8rawValueACSgSS_tcfc",
-            "mangledName": "$s15FlippShopperSDK7OptionsO8rawValueACSgSS_tcfc",
-            "moduleName": "FlippShopperSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -6306,7 +6447,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "WebKit.WKScriptMessageHandler?"
+                "printedName": "(any WebKit.WKScriptMessageHandler)?"
               }
             ],
             "declKind": "Var",
@@ -6331,12 +6472,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "WebKit.WKScriptMessageHandler?",
+                    "printedName": "(any WebKit.WKScriptMessageHandler)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WKScriptMessageHandler",
-                        "printedName": "WebKit.WKScriptMessageHandler",
+                        "printedName": "any WebKit.WKScriptMessageHandler",
                         "usr": "c:objc(pl)WKScriptMessageHandler"
                       }
                     ],
@@ -6364,12 +6505,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "WebKit.WKScriptMessageHandler?",
+                    "printedName": "(any WebKit.WKScriptMessageHandler)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WKScriptMessageHandler",
-                        "printedName": "WebKit.WKScriptMessageHandler",
+                        "printedName": "any WebKit.WKScriptMessageHandler",
                         "usr": "c:objc(pl)WKScriptMessageHandler"
                       }
                     ],
@@ -6419,7 +6560,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WKScriptMessageHandler",
-                "printedName": "WebKit.WKScriptMessageHandler",
+                "printedName": "any WebKit.WKScriptMessageHandler",
                 "usr": "c:objc(pl)WKScriptMessageHandler"
               }
             ],
@@ -6667,7 +6808,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "URLOpenerProtocol",
-                "printedName": "FlippShopperSDK.URLOpenerProtocol",
+                "printedName": "any FlippShopperSDK.URLOpenerProtocol",
                 "usr": "s:15FlippShopperSDK17URLOpenerProtocolP"
               }
             ],
@@ -6699,7 +6840,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "URLOpenerProtocol",
-                "printedName": "FlippShopperSDK.URLOpenerProtocol",
+                "printedName": "any FlippShopperSDK.URLOpenerProtocol",
                 "usr": "s:15FlippShopperSDK17URLOpenerProtocolP"
               }
             ],
@@ -6785,9 +6926,9 @@
             "moduleName": "FlippShopperSDK",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -7059,6 +7200,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -7168,90 +7316,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 722,
-      "length": 93,
-      "value": "\"window.handleMessageFromNative({\"type\":\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 782,
-      "length": 1,
-      "value": "\"\",\"detail\": null });\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 944,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1066,
-      "length": 27,
-      "value": "\"\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1075,
-      "length": 1,
-      "value": "\"\": \"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1089,
-      "length": 1,
-      "value": "\"\",\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1148,
-      "length": 23,
-      "value": "\"\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1157,
-      "length": 1,
-      "value": "\"\": \""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1169,
-      "length": 1,
-      "value": "\",\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1375,
-      "length": 105,
-      "value": "\"window.handleMessageFromNative({\"type\":\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1433,
-      "length": 1,
-      "value": "\"\",\"detail\": { \""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/OutputMessageProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1466,
-      "length": 1,
-      "value": "\" } });\""
-    },
-    {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
       "kind": "StringLiteral",
       "offset": 757,
@@ -7285,125 +7349,6 @@
       "offset": 904,
       "length": 14,
       "value": "\"content-type\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "Array",
-      "offset": 1309,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1381,
-      "length": 86,
-      "value": "\"Error handling received message, failed to parse out json from incoming message data\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1537,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1590,
-      "length": 8,
-      "value": "\"detail\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1668,
-      "length": 111,
-      "value": "\"Error handling received message, failed to parse out json from incoming message data. Missing type or details\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2008,
-      "length": 77,
-      "value": "\"Missing `text`, `or` or `content-type` in the `request add to list` message\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2167,
-      "length": 61,
-      "value": "\"Did receive `request add to list` message with item:\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2227,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2337,
-      "length": 41,
-      "value": "\"Did receive `request-go-to-url` message\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2557,
-      "length": 50,
-      "value": "\"Missing `url` in the `request-go-to-url` message\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2836,
-      "length": 55,
-      "value": "\"Missing `height` parameter in `content-ready` message\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2973,
-      "length": 37,
-      "value": "\"Did receive `content-ready` message\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 3119,
-      "length": 16,
-      "value": "\"Failed to load\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 3525,
-      "length": 56,
-      "value": "\"Missing `height` parameter in `request-resize` message\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 3663,
-      "length": 38,
-      "value": "\"Did receive `request-resize` message\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 3859,
-      "length": 36,
-      "value": "\"Unhandled message from JS: \""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/MessageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 3894,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
@@ -7596,339 +7541,45 @@
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1972,
+      "length": 14,
+      "value": "\"screenHeight\""
+    },
+    {
+      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "Array",
-      "offset": 2450,
+      "offset": 2502,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2466,
+      "offset": 2518,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2659,
+      "offset": 2711,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "Array",
-      "offset": 3736,
+      "offset": 3861,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3788,
+      "offset": 3913,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "Array",
-      "offset": 4658,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 4708,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4996,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5062,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5172,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5255,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5328,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5407,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5483,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5739,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 6538,
-      "length": 68,
-      "value": "\"Root controller wasn't passed or the view doesn't have a superview\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7244,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7366,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7754,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 8330,
-      "length": 66,
-      "value": "\"Sending `experience-load` with the following details: \""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 8395,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 8848,
-      "length": 58,
-      "value": "\"Error loading the webview: \""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 8905,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 9081,
-      "length": 81,
-      "value": "\"Sending `experience-viewport` with top: \""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 9135,
-      "length": 1,
-      "value": "\", height: \""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 9161,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 10085,
-      "length": 25,
-      "value": "\"JS message missing body\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10494,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10728,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10958,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 329,
-      "length": 19,
-      "value": "\"shopper.flipp.com\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 444,
-      "length": 28,
-      "value": "\"\/tag\/html\/staging\/sdk.html\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 518,
-      "length": 20,
-      "value": "\"\/tag\/html\/sdk.html\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 738,
-      "length": 23,
-      "value": "\"SiteId can't be empty\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 868,
-      "length": 24,
-      "value": "\"ZoneIds can't be empty\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 950,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1218,
-      "length": 3,
-      "value": "\",\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1268,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1343,
-      "length": 8,
-      "value": "\"siteId\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1414,
-      "length": 8,
-      "value": "\"zoneId\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1486,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1557,
-      "length": 5,
-      "value": "\"sdk\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1629,
-      "length": 15,
-      "value": "\"publisherName\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1714,
-      "length": 8,
-      "value": "\"domain\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1842,
-      "length": 8,
-      "value": "\"locale\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1990,
-      "length": 20,
-      "value": "\"flipp-content-code\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 2215,
-      "length": 6,
-      "value": "\"true\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 2323,
-      "length": 7,
-      "value": "\"https\""
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
@@ -7963,63 +7614,7 @@
       "kind": "StringLiteral",
       "offset": 876,
       "length": 7,
-      "value": "\"0.1.2\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1512,
-      "length": 30,
-      "value": "\"publisherName can't be empty\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1636,
-      "length": 46,
-      "value": "\"UserId passed:\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1681,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1767,
-      "length": 36,
-      "value": "\"Content code passed:\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1802,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1880,
-      "length": 27,
-      "value": "\"Options passed:\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1906,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/FPShopperSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 2781,
-      "length": 32,
-      "value": "\"Couldn't create a native-x URL\""
+      "value": "\"0.1.3\""
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/WebViewDelegateHolder.swift",
@@ -8027,13 +7622,6 @@
       "offset": 71,
       "length": 21,
       "value": "\"FlippShopperSDK.WebViewDelegateHolder\""
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/URLOpener.swift",
-      "kind": "Dictionary",
-      "offset": 534,
-      "length": 3,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
@@ -8048,13 +7636,6 @@
       "offset": 647,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Yuting.Shen\/flipp\/off-app\/sdk\/flipp-shopper-sdk\/FlippShopperSDK\/Sources\/FlippShopperSDK\/SizeToFitWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 1041,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
     }
   ]
 }
